@@ -1,7 +1,7 @@
 /var/log/nginx/*.log {
-  size 5M
+  weekly
   missingok
-  rotate 5
+  rotate 13 ## 7*13 = 91 days
   compress
   delaycompress
   notifempty
