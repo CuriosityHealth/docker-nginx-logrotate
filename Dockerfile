@@ -1,4 +1,4 @@
-FROM nginx:1.15.1
+FROM nginx:1.17
 MAINTAINER James Kizer <james@curiosityhealth.com>
 
 # Install logrotate
